@@ -1,0 +1,21 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Local development files
+.vscode/
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints
+
+# Virtual environment
+venv/
