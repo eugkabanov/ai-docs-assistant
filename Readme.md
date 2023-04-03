@@ -24,7 +24,8 @@ This project involves using Python and Jupyter Notebook to transform raw data in
 7. Install the required Python packages using the following command: `pip install -r requirements.txt`.
 8. Before running the conversion script, make sure you have `ffmpeg` installed on your system.
    You can install `ffmpeg` using a package manager like `apt-get` on Ubuntu or `brew` on macOS.
-9. Launch Jupyter Notebook using the following command: `jupyter notebook`.
-10. Open the project's main Jupyter Notebook file and follow the instructions to transform the data and train the model.
+9. In the .env file, add the following line: OPENAI_API_KEY=<your_api_key_here>. You can get your API key from the OpenAI dashboard.
+10. Launch Jupyter Notebook using the following command: `jupyter notebook`.
+11. Open the project's main Jupyter Notebook file and follow the instructions to transform the data and train the model.
 
-That's it! You should now be able to set up the project, install `ffmpeg`, and start working with the data and model learning notebooks. Happy coding!
+That's it! You should now be able to set up the project and start working with the data and model learning notebooks. Happy coding!
